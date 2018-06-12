@@ -1,7 +1,7 @@
 const express = require('express')
 const http = require('http')
 const app = express()
-const config = require('./local_config');
+const config = require('./config');
 
 // 跨域设置
 app.all('*', function (req, res, next) {
